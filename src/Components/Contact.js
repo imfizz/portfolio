@@ -54,7 +54,6 @@ const Contact = ({ data }) => {
                 </label>
                 <input
                   type="text"
-                  defaultValue=""
                   value={name}
                   size="35"
                   id="contactName"
@@ -69,7 +68,6 @@ const Contact = ({ data }) => {
                 </label>
                 <input
                   type="text"
-                  defaultValue=""
                   value={email}
                   size="35"
                   id="contactEmail"
@@ -82,7 +80,6 @@ const Contact = ({ data }) => {
                 <label htmlFor="contactSubject">Subject</label>
                 <input
                   type="text"
-                  defaultValue=""
                   value={subject}
                   size="35"
                   id="contactSubject"

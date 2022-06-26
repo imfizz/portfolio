@@ -28,11 +28,11 @@ const Resume = ({ data }) => {
     //   );
     // });
     var skills = data.skills.map(function (skills) {
-      var className = "bar-expand " + skills.name.toLowerCase();
+      // var className = "bar-expand " + skills.name.toLowerCase();
       return (
         <li key={skills.name}>
           {/* <span style={{ width: skills.level }} className={className}></span> */}
-          <img src={skills.img} title={skills.name} />
+          <img src={skills.img} title={skills.name} alt={skills.name}/>
           <em>{skills.name}</em>
         </li>
       );

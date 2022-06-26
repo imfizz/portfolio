@@ -1,7 +1,7 @@
 import React from "react";
 import TypeWriter from "react-typewriter";
 
-const Header = ({ data }) => {
+const Header = ({ data, mindelay, maxdelay }) => {
   if (data) {
     var name = data.name;
     var occupation = data.occupation;
@@ -65,7 +65,7 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+            <TypeWriter typing={1} mindelay={mindelay} maxdelay={maxdelay}>{name ? `I'm ${name}` : null}</TypeWriter>
           </h1>
           <h3>
             Based in {city}. <span>{occupation}</span>. {description}.

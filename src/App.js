@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header data={resumeData.main} />
+      <Header data={resumeData.main} maxdelay={100} mindelay={20} />
       <About data={resumeData.main} />
       <Resume data={resumeData.resume} />
       <Portfolio data={resumeData.portfolio} />
