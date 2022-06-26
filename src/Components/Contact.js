@@ -18,13 +18,16 @@ const Contact = ({ data }) => {
   }
 
   const submitForm = () => {
-    window.open(
-      `mailto:${contactEmail}?subject=${encodeURIComponent(
-        subject
-      )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
-        email
-      )}): ${encodeURIComponent(message)}`
-    );
+    // window.open(
+    //   `mailto:${contactEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(name)}(${encodeURIComponent(email)}): ${encodeURIComponent(message)}`
+    // );
+    var link = `mailto:${contactEmail}`
+             + `?cc=${email}`
+             + "&subject=" + encodeURIComponent(subject)
+             + "&body=" + encodeURIComponent(message)
+    ;
+    
+    window.location.href = link;
   };
 
   return (
