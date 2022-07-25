@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Francis Ilacad",
-    "occupation": "Self taught Developer",
-    "description": "I eat, sleep and breathe React",
+    "occupation": "Web Developer",
+    "description": "I eat, sleep and breathe programming",
     "image": "profilepic.png",
-    "bio": "Hi there! I am Francis! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
+    "bio": "From the moment I produced 'Hello World' in the console of my first application, I knew I was hooked into the world of software development. But software development has never been 'just a job' for me, it's offered an engaging challenge to continually learn and improve my skills in creating high-quality software. What started with a simple 'Hello World' has become a full-fledged passion that only gets more exciting as the years go by. Below you'll find projects I've completed that showcase my skills and general background in developing software.",
     "contactmessage": "Get in touch with me if your interested!",
     "email": "filacad22@gmail.com",
     "phone": "+63 9060766219",
@@ -14,32 +14,17 @@
       "state": "Philippines",
       "zip": "1117"
     },
-    "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
+    "website": "/",
+    "resumedownload": "/resume.pdf",
     "social": [
-      {
-        "name": "youtube",
-        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
-        "className": "fa fa-youtube"
-      },
       {
         "name": "facebook",
         "url": "https://www.facebook.com/francisalbert.ilacad/",
         "className": "fa fa-facebook"
       },
       {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
-        "className": "fa fa-instagram"
-      },
-      {
         "name": "github",
-        "url": "https://github.com/PapaReact",
+        "url": "https://github.com/imfizz",
         "className": "fa fa-github"
       }
     ]
@@ -50,38 +35,98 @@
       {
         "school": "Quezon City University - PH",
         "degree": "Bachelor's Degree, Information Technology",
-        "graduated": "June 2022",
-        "description": "Graduated with First Class Honours"
+        "graduated": "2018 - 2022",
+        "description": "Best in Capstone in SHS"
+      },
+      {
+        "school": "San Bartolome High School - PH",
+        "degree": "",
+        "graduated": "2012 - 2018",
+        "description": "No honor"
+      },
+      {
+        "school": "Villa Verde Elementary School - PH",
+        "degree": "",
+        "graduated": "2006 - 2012",
+        "description": "No honor"
       }
     ],
     "work": [
       {
-        "company": "PAPA",
-        "title": "Founder and CEO",
+        "company": "",
+        "title": "",
         "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "description": ""
       }
     ],
     "skills": [
       {
-        "name": "ReactJs",
-        "level": "100%"
+        "name": "React JS",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
       },
       {
         "name": "PHP",
-        "level": "85%"
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"
       },
       {
         "name": "Git",
-        "level": "70%"
+        "img": "https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png"
       },
       {
         "name": "JavaScript",
-        "level": "99%"
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
       },
       {
-        "name": "Web Development",
-        "level": "95%"
+        "name": "HTML5",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+      },
+      {
+        "name": "CSS3",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+      },
+      {
+        "name": "SASS",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png"
+      },
+      {
+        "name": "Tailwind",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tailwind/tailwind.png"
+      },
+      {
+        "name": "Node JS",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
+      },
+      {
+        "name": "Composer",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/composer/composer.png"
+      },
+      {
+        "name": "SQL",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png"
+      },
+      {
+        "name": "MySQL",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
+      },
+      {
+        "name": "JSON",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/json/json.png"
+      },
+      {
+        "name": "VSCODE",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png"
+      },
+      {
+        "name": "Next JS",
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+      },
+      {
+        "name": "jQuery",
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"
+      },
+      {
+        "name": "Figma",
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
       }
     ]
   },
@@ -132,7 +177,7 @@
         "user": "Marianne Herrera"
       },
       {
-        "text": "Learning with Francis has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
+        "text": "He was able to help me out whenever I needed. Francis takes it all seriously and never stop trying until he finally gets the results he wanted.",
         "user": "Christian Miraflor"
       }
     ]
