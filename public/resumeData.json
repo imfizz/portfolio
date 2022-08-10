@@ -137,6 +137,12 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Shoppy (ReactJS, TailwindCSS, ContextProvider, Syncfusion, Netlify)",
+        "category": "",
+        "image": "storey.png",
+        "url": "https://storeydesg.netlify.app/"
+      },
+      {
         "title": "Youtube Redesign (HTML, CSS, JavaScript, Netlify)",
         "category": "",
         "image": "ytredesign.png",
