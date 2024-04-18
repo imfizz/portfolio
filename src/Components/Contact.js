@@ -26,8 +26,11 @@ const Contact = ({ data }) => {
              + "&subject=" + encodeURIComponent(subject)
              + "&body=" + encodeURIComponent(message)
     ;
+
+    if(name.length !== 0 && email.length !== 0 && message.length !== 0){
+      window.location.href = link;
+    }
     
-    window.location.href = link;
   };
 
   return (
@@ -59,6 +62,7 @@ const Contact = ({ data }) => {
                   id="contactName"
                   name="contactName"
                   onChange={(e) => setName(e.target.value)}
+                  required
                 />
               </div>
 
@@ -67,12 +71,13 @@ const Contact = ({ data }) => {
                   Email <span className="required">*</span>
                 </label>
                 <input
-                  type="text"
+                  type="email"
                   value={email}
                   size="35"
                   id="contactEmail"
                   name="contactEmail"
                   onChange={(e) => setEmail(e.target.value)}
+                  required
                 />
               </div>
 
@@ -99,6 +104,7 @@ const Contact = ({ data }) => {
                   onChange={(e) => setMessage(e.target.value)}
                   id="contactMessage"
                   name="contactMessage"
+                  required
                 ></textarea>
               </div>
 
