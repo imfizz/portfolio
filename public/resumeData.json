@@ -2,14 +2,14 @@
   "main": {
     "name": "Francis Ilacad",
     "occupation": "Web Developer",
-    "description": "I eat, sleep and breathe programming",
+    "description": "Designing and programming are my constant companions, my passions, and my areas of expertise.",
     "image": "profilepic.png",
     "bio": "From the moment I produced 'Hello World' in the console of my first application, I knew I was hooked into the world of software development. But software development has never been 'just a job' for me, it's offered an engaging challenge to continually learn and improve my skills in creating high-quality software. What started with a simple 'Hello World' has become a full-fledged passion that only gets more exciting as the years go by. Below you'll find projects I've completed that showcase my skills and general background in developing software.",
     "contactmessage": "Get in touch with me if your interested!",
     "email": "filacad22@gmail.com",
     "phone": "+63 9060766219",
     "address": {
-      "street": "Carinosa Street, Brgy. Sta Monica, Novaliches",
+      "street": "Cariñosa Street, Brgy. Sta Monica, Novaliches",
       "city": "Quezon City",
       "state": "Philippines",
       "zip": "1117"
@@ -36,7 +36,7 @@
         "school": "Quezon City University - PH",
         "degree": "Bachelor's Degree, Information Technology",
         "graduated": "2018 - 2022",
-        "description": "Best in Capstone in SHS"
+        "description": "Best in Capstone in Senior High School"
       },
       {
         "school": "San Bartolome High School - PH",
@@ -53,9 +53,9 @@
     ],
     "work": [
       {
-        "company": "",
-        "title": "",
-        "years": "May 2019 - Present",
+        "company": "WPH Digital Pte Ltd",
+        "title": "Mid Level Front End Developer",
+        "years": "August 2022 - April 2024",
         "description": ""
       }
     ],
@@ -121,6 +121,10 @@
         "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"
       },
       {
+        "name": "TypeScript",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
+      },
+      {
         "name": "Tailwind",
         "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tailwind/tailwind.png"
       },
@@ -140,43 +144,73 @@
         "title": "Shoppy (ReactJS, TailwindCSS, ContextProvider, Syncfusion, Netlify)",
         "category": "",
         "image": "storey.png",
-        "url": "https://storeydesg.netlify.app/"
+        "url": "https://storeydesg.netlify.app/",
+        "year": "June 2022"
       },
       {
         "title": "Youtube Redesign (HTML, CSS, JavaScript, Netlify)",
         "category": "",
         "image": "ytredesign.png",
-        "url": "https://ytredesign.netlify.app/"
+        "url": "https://ytredesign.netlify.app/",
+        "year": "January 2021"
       },
       {
         "title": "Kiko Store (NextJS, SanityIO, Stripe, Vercel)",
         "category": "",
         "image": "kikostore.png",
-        "url": "https://ecommerce-sanity-stripe-eight-bice.vercel.app/"
+        "url": "https://ecommerce-sanity-stripe-eight-bice.vercel.app/",
+        "year": "July 2022"
       },
       {
         "title": "Facebook Clone - (NextJS, TailwindCSS, Facebook Login, Heroicons)",
         "category": "",
         "image": "facebookclone.png",
-        "url": "https://facebook-deploy.vercel.app/"
+        "url": "https://facebook-deploy.vercel.app/",
+        "year": "July 2022"
       },
       {
         "title": "GetVibes - (HTML, CSS, MaterializeCSS, Undraw, Netlify)",
         "category": "",
         "image": "getvibes.png",
-        "url": "https://getvibesv2.netlify.app/"
+        "url": "https://getvibesv2.netlify.app/",
+        "year": "February 2021"
       },
       {
         "title": "JTDV System (PHP, Composer, MySQL, JavaScript, SASS)",
         "category": "",
         "image": "jtdvsystem.png",
-        "url": "https://payrolleristed.000webhostapp.com/login.php"
+        "url": "https://payrolleristed.000webhostapp.com/login.php",
+        "year": "January 2022"
       },
       {
         "title": "Bizup Landing Page (React JS, SASS, Material Icons)",
         "category": "",
         "image": "bizup.png",
-        "url": "https://bizupp.netlify.app/"
+        "url": "https://bizupp.netlify.app/",
+        "year": "August 2022"
+      }
+    ],
+    "workProjects": [
+      {
+        "title": "ESG (HTML, CSS, SASS, JQuery, JavaScript, SiteCore, ASP.NET MVC, Azure DevOps Services)",
+        "category": "",
+        "image": "esg.png",
+        "url": "https://www.enterprisesg.gov.sg/",
+        "year": "August 2022"
+      },
+      {
+        "title": "ELKO (ReactJS, NodeJS, AWS, AntD, Stripe, Webflow, Azure DevOps Services)",
+        "category": "",
+        "image": "elko.png",
+        "url": "https://hello.elko.digital/",
+        "year": "September 2023"
+      },
+      {
+        "title": "HAN (HTML, CSS, SASS, JavaScript, ASP.NET MVC, SiteCore, Azure DevOps Services)",
+        "category": "",
+        "image": "han.png",
+        "url": "https://www.roots.gov.sg/han",
+        "year": "October 2023"
       }
     ]
   },

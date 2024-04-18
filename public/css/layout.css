@@ -456,6 +456,7 @@ ul#nav li.current a { color: #F06000; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
@@ -528,6 +529,10 @@ ul#nav li.current a { color: #F06000; }
    opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
+}
+
+.portfolio-item .item-accomplished p {
+   text-align: center;
 }
 
 /* popup modal */

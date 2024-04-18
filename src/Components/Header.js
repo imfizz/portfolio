@@ -46,7 +46,7 @@ const Header = ({ data, mindelay, maxdelay }) => {
           </li>
           <li>
             <a className="smoothscroll" href="#portfolio">
-              Works
+              Projects
             </a>
           </li>
           <li>
