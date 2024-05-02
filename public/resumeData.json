@@ -2,9 +2,9 @@
   "main": {
     "name": "Francis Ilacad",
     "occupation": "Web Developer",
-    "description": "Designing and programming are my constant companions, my passions, and my areas of expertise.",
+    "description": "Designing and programming are my constant companions, my passions, and my areas of expertise",
     "image": "profilepic.png",
-    "bio": "From the moment I produced 'Hello World' in the console of my first application, I knew I was hooked into the world of software development. But software development has never been 'just a job' for me, it's offered an engaging challenge to continually learn and improve my skills in creating high-quality software. What started with a simple 'Hello World' has become a full-fledged passion that only gets more exciting as the years go by. Below you'll find projects I've completed that showcase my skills and general background in developing software.",
+    "bio": "Resourceful professional with successful track record in developing innovative web designs and features. Possesses solid knowledge of HTML, CSS, JavaScript, NodeJS and ReactJS with ability to quickly learn new technologies. Demonstrated success in identifying and resolving complex code issues.",
     "contactmessage": "Get in touch with me if your interested!",
     "email": "filacad22@gmail.com",
     "phone": "+63 9060766219",
@@ -135,6 +135,22 @@
       {
         "name": "Figma",
         "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+      },
+      {
+        "name": "AWS",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png"
+      },
+      {
+        "name": "Azure",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/azure/azure.png"
+      },
+      {
+        "name": "GraphQL",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/graphql/graphql.png"
+      },
+      {
+        "name": "Java",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
       }
     ]
   },
