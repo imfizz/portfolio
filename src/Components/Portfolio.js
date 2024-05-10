@@ -56,16 +56,6 @@ const Portfolio = ({ data }) => {
   return (
     <section id="portfolio">
       <div className="row">
-        {/* <div className="twelve columns collapsed">
-          <h1>Personal Projects</h1>
-
-          <div
-            id="portfolio-wrapper"
-            className="bgrid-quarters s-bgrid-thirds cf"
-          >
-            {projects}
-          </div>
-        </div> */}
         <div className="twelve columns collapsed">
           <h1>Company projects</h1>
           <div
@@ -73,6 +63,16 @@ const Portfolio = ({ data }) => {
             className="bgrid-quarters s-bgrid-thirds cf"
           >
             {workprojects}
+          </div>
+        </div>
+        <div className="twelve columns collapsed">
+          <h1>Personal Projects</h1>
+
+          <div
+            id="portfolio-wrapper"
+            className="bgrid-quarters s-bgrid-thirds cf"
+          >
+            {projects}
           </div>
         </div>
       </div>

@@ -204,6 +204,12 @@
         "image": "bizup.png",
         "url": "https://bizupp.netlify.app/",
         "year": "August 2022"
+      }, {
+        "title": "Profiler App (Python, Django, MySQL, Bootstrap, Pip, Pillow)",
+        "category": "",
+        "image": "profiler app.png",
+        "url": "https://bareclaw.pythonanywhere.com/users/login",
+        "year": "May 2024"
       }
     ],
     "workProjects": [
