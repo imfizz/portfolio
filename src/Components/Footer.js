@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DataContext } from "../data/DataContext";
 
-const Footer = ({ data }) => {
+const Footer = () => {
+  const { data, loading, isError } = useContext(DataContext);
+
+  if(loading){
+    return <div>About section is loading..</div>
+  }
+
+  if(isError){
+    return <div>{isError}</div>
+  }
+
   if (data) {
-    var networks = data.social.map(function (network) {
+    var networks = data.main.social.map(function (network) {
       return (
         <li key={network.name}>
           <a href={network.url}>

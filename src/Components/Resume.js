@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DataContext } from "../data/DataContext";
 
-const Resume = ({ data }) => {
+const Resume = () => {
+  const { data, loading, isError } = useContext(DataContext);
+
+  if(loading){
+    return <div>Resume section is loading..</div>
+  }
+
+  if(isError){
+    return <div>{isError}</div>
+  }
+
   if (data) {
-    var skillmessage = data.skillmessage;
-    var education = data.education.map(function (education) {
+    var skillmessage = data.resume.skillmessage;
+    var education = data.resume.education.map(function (education) {
       return (
         <div key={education.school}>
           <h3>{education.school}</h3>
@@ -15,19 +26,25 @@ const Resume = ({ data }) => {
         </div>
       );
     });
-    // var work = data.work.map(function (work) {
-    //   return (
-    //     <div key={work.company}>
-    //       <h3>{work.company}</h3>
-    //       <p className="info">
-    //         {work.title}
-    //         <span>&bull;</span> <em className="date">{work.years}</em>
-    //       </p>
-    //       <p>{work.description}</p>
-    //     </div>
-    //   );
-    // });
-    var skills = data.skills.map(function (skills) {
+    var work = data.resume.work.map(function (work) {
+      return (
+        <div key={work.company}>
+          <h3>{work.company}</h3>
+          <p className="info">
+            {work.title}
+            <span>&bull;</span> <em className="date">{work.years}</em>
+          </p>
+          <ul className="description">
+            {work.description.map((desc, i) => (
+              <li key={i}>
+                <p>{desc}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      );
+    });
+    var skills = data.resume.skills.map(function (skills) {
       // var className = "bar-expand " + skills.name.toLowerCase();
       return (
         <li key={skills.name}>
@@ -55,7 +72,7 @@ const Resume = ({ data }) => {
         </div>
       </div>
 
-      {/* <div className="row work">
+      <div className="row work">
         <div className="three columns header-col">
           <h1>
             <span>Work</span>
@@ -63,7 +80,7 @@ const Resume = ({ data }) => {
         </div>
 
         <div className="nine columns main-col">{work}</div>
-      </div> */}
+      </div>
 
       <div className="row skill">
         <div className="three columns header-col">

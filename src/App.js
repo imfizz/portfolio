@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
@@ -11,25 +11,15 @@ import Portfolio from "./Components/Portfolio";
 import "./App.css";
 
 const App = () => {
-  const [resumeData, setResumeData] = useState({});
-
-  useEffect(() => {
-    fetch("/resumeData.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setResumeData(data);
-      });
-  }, []);
-
   return (
     <div className="App">
-      <Header data={resumeData.main} maxdelay={100} mindelay={20} />
-      <About data={resumeData.main} />
-      <Resume data={resumeData.resume} />
-      <Portfolio data={resumeData.portfolio} />
-      <Testimonials data={resumeData.testimonials} />
-      <Contact data={resumeData.main} />
-      <Footer data={resumeData.main} />
+      <Header />
+      <About />
+      <Resume />
+      <Portfolio />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 };

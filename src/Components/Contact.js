@@ -1,20 +1,30 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import { DataContext } from "../data/DataContext";
 
-const Contact = ({ data }) => {
+const Contact = () => {
+  const { data, loading, isError } = useContext(DataContext);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
+  if(loading){
+    return <div>About section is loading..</div>
+  }
+
+  if(isError){
+    return <div>{isError}</div>
+  }
+
   if (data) {
-    var contactName = data.name;
-    var street = data.address.street;
-    var city = data.address.city;
-    var state = data.address.state;
-    var zip = data.address.zip;
-    var phone = data.phone;
-    var contactEmail = data.email;
-    var contactMessage = data.contactmessage;
+    var contactName = data.main.name;
+    var street = data.main.address.street;
+    var city = data.main.address.city;
+    var state = data.main.address.state;
+    var zip = data.main.address.zip;
+    var phone = data.main.phone;
+    var contactEmail = data.main.email;
+    var contactMessage = data.main.contactmessage;
   }
 
   const submitForm = () => {

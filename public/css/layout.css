@@ -284,6 +284,14 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+#resume .description {
+   list-style:disc;
+}
+
+#resume .description li p {
+   color: #313131;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -500,13 +508,17 @@ ul#nav li.current a { color: #F06000; }
 	transition: opacity 0.3s ease-in-out;
 
    position: absolute;
-   top: 50%;
+   bottom: 15%;
    left: 50%;
    margin-left: -15px;
    margin-top: -15px;
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
+   height: 134px;
+   width: 100%;
+   background-size: cover;
+   object-fit: cover;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {

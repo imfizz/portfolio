@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DataContext } from "../data/DataContext";
 
-const Portfolio = ({ data }) => {
+const Portfolio = () => {
+  const { data, loading, isError } = useContext(DataContext);
+
+  if(loading){
+    return <div>Portfolio section is loading..</div>
+  }
+
+  if(isError){
+    return <div>{isError}</div>
+  }
+
   if (data) {
-    var projects = data.projects.map(function (projects) {
+    var projects = data.portfolio.projects.map(function (projects) {
       var projectImage = "images/portfolio/" + projects.image;
       return (
         <div key={projects.title} className="columns portfolio-item">
@@ -27,7 +38,7 @@ const Portfolio = ({ data }) => {
       );
     });
 
-    var workprojects = data.workProjects.map(function (projects) {
+    var workprojects = data.portfolio.workProjects.map(function (projects) {
       var projectImage = "images/portfolio/" + projects.image;
       return (
         <div key={projects.title} className="columns portfolio-item">

@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DataContext } from "../data/DataContext";
 
-const Testimonials = ({ data }) => {
+const Testimonials = () => {
+  const { data, loading, isError } = useContext(DataContext);
+
+  if(loading){
+    return <div>Testimonials section is loading..</div>
+  }
+
+  if(isError){
+    return <div>{isError}</div>
+  }
+
   if (data) {
-    var testimonials = data.testimonials.map(function (testimonials) {
+    var testimonials = data.testimonials.testimonials.map(function (testimonials) {
       return (
         <li key={testimonials.user}>
           <blockquote>

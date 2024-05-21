@@ -18,9 +18,9 @@
     "resumedownload": "/resume.pdf",
     "social": [
       {
-        "name": "facebook",
-        "url": "https://www.facebook.com/francisalbert.ilacad/",
-        "className": "fa fa-facebook"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/francis-albert-ilacad-3a4111281/",
+        "className": "fa fa-linkedin"
       },
       {
         "name": "github",
@@ -53,56 +53,22 @@
     ],
     "work": [
       {
-        "company": "WPH Digital Pte Ltd",
+        "company": "WPH Digital Pte Ltd, Singapore (Remote)",
         "title": "Mid Level Front End Developer",
         "years": "August 2022 - April 2024",
-        "description": ""
+        "description": [
+          "Collected, defined and translated user requirements into project designs and implementation plans.", 
+          "Tested web-based product functionality and delivered iterations to customer.",
+          "Utilized HTML, CSS, JavaScript and other libraries/frameworks to create visually appealing and responsive web pages that met client requirements.",
+          "Troubleshoot technical issues related to front end development, ensuring prompt resolution to maintain project timelines.",
+          "Conducted cross-browser testing to ensure consistent display across different devices and browsers."
+        ]
       }
     ],
     "skills": [
       {
-        "name": "Node JS",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
-      },
-      {
-        "name": "React JS",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-      },
-      {
-        "name": "Next JS",
-        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-      },
-      {
-        "name": "Express JS",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png"
-      },
-      {
-        "name": "MongoDB",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
-      },
-      {
-        "name": "Git",
-        "img": "https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png"
-      },
-      {
-        "name": "PHP",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"
-      },
-      {
-        "name": "Vue JS",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
-      },
-      {
-        "name": "Wordpress",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/wordpress/wordpress.png"
-      },
-      {
-        "name": "Composer",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/composer/composer.png"
-      },
-      {
-        "name": "MySQL",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
+        "name": "Figma",
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
       },
       {
         "name": "HTML5",
@@ -111,6 +77,10 @@
       {
         "name": "CSS3",
         "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+      },
+      {
+        "name": "SASS",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png"
       },
       {
         "name": "JavaScript",
@@ -125,52 +95,49 @@
         "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
       },
       {
-        "name": "Tailwind",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tailwind/tailwind.png"
+        "name": "React JS",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
       },
       {
-        "name": "SASS",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png"
+        "name": "Redux",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"
       },
       {
-        "name": "Figma",
-        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+        "name": "Vue JS",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
       },
       {
-        "name": "AWS",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png"
+        "name": "Node JS",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
       },
       {
-        "name": "Azure",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/azure/azure.png"
+        "name": "Express JS",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png"
+      },
+      {
+        "name": "MongoDB",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+      },
+      {
+        "name": "MySQL",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
       },
       {
         "name": "GraphQL",
         "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/graphql/graphql.png"
       },
       {
-        "name": "Java",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
+        "name": "PHP",
+        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"
       },
       {
-        "name": "Python",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"
-      },
-      {
-        "name": "Django",
-        "img": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/django/django.png"
+        "name": "Git",
+        "img": "https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png"
       }
     ]
   },
   "portfolio": {
     "projects": [
-      {
-        "title": "Shoppy (ReactJS, TailwindCSS, ContextProvider, Syncfusion, Netlify)",
-        "category": "",
-        "image": "storey.png",
-        "url": "https://storeydesg.netlify.app/",
-        "year": "June 2022"
-      },
       {
         "title": "Youtube Redesign (HTML, CSS, JavaScript, Netlify)",
         "category": "",
@@ -179,7 +146,21 @@
         "year": "January 2021"
       },
       {
-        "title": "Kiko Store (NextJS, SanityIO, Stripe, Vercel)",
+        "title": "GetVibes - (HTML, CSS, MaterializeCSS, Undraw, Netlify)",
+        "category": "",
+        "image": "getvibes.png",
+        "url": "https://getvibesv2.netlify.app/",
+        "year": "February 2021"
+      },
+      {
+        "title": "Shoppy (ReactJS, TailwindCSS, ContextProvider, Syncfusion, Netlify)",
+        "category": "",
+        "image": "storey.png",
+        "url": "https://storeydesg.netlify.app/",
+        "year": "June 2022"
+      },
+      {
+        "title": "Kiko Store (HTML, CSS, NextJS, SanityIO, Stripe, Vercel)",
         "category": "",
         "image": "kikostore.png",
         "url": "https://ecommerce-sanity-stripe-eight-bice.vercel.app/",
@@ -193,13 +174,6 @@
         "year": "July 2022"
       },
       {
-        "title": "GetVibes - (HTML, CSS, MaterializeCSS, Undraw, Netlify)",
-        "category": "",
-        "image": "getvibes.png",
-        "url": "https://getvibesv2.netlify.app/",
-        "year": "February 2021"
-      },
-      {
         "title": "JTDV System (PHP, Composer, MySQL, JavaScript, SASS)",
         "category": "",
         "image": "jtdvsystem.png",
@@ -207,7 +181,7 @@
         "year": "January 2022"
       },
       {
-        "title": "Bizup Landing Page (React JS, SASS, Material Icons)",
+        "title": "Bizup Landing Page (HTML, CSS, React JS, SASS, Material Icons)",
         "category": "",
         "image": "bizup.png",
         "url": "https://bizupp.netlify.app/",

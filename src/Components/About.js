@@ -1,17 +1,28 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DataContext } from "../data/DataContext";
 
-const About = ({ data }) => {
+const About = () => {
+  const { data, loading, isError } = useContext(DataContext);
+
+  if(loading){
+    return <div>About section is loading..</div>
+  }
+
+  if(isError){
+    return <div>{isError}</div>
+  }
+
   if (data) {
-    var name = data.name;
-    var profilepic = "images/" + data.image;
-    var bio = data.bio;
-    var street = data.address.street;
-    var city = data.address.city;
-    var state = data.address.state;
-    var zip = data.address.zip;
-    var phone = data.phone;
-    var email = data.email;
-    var resumeDownload = data.resumedownload;
+    var name = data.main.name;
+    var profilepic = "images/" + data.main.image;
+    var bio = data.main.bio;
+    var street = data.main.address.street;
+    var city = data.main.address.city;
+    var state = data.main.address.state;
+    var zip = data.main.address.zip;
+    var phone = data.main.phone;
+    var email = data.main.email;
+    var resumeDownload = data.main.resumedownload;
   }
 
   return (

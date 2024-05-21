@@ -1,13 +1,24 @@
-import React from "react";
+import React, { useContext } from "react";
 import TypeWriter from "react-typewriter";
+import { DataContext } from "../data/DataContext";
 
-const Header = ({ data, mindelay, maxdelay }) => {
+const Header = () => {
+  const { data, loading, isError } = useContext(DataContext);
+
+  if(loading){
+    return <div>Header section is loading..</div>
+  }
+
+  if(isError){
+    return <div>{isError}</div>
+  }
+
   if (data) {
-    var name = data.name;
-    var occupation = data.occupation;
-    var description = data.description;
-    var state = data.address.state;
-    var networks = data.social.map(function (network) {
+    var name = data.main.name;
+    var occupation = data.main.occupation;
+    var description = data.main.description;
+    var state = data.main.address.state;
+    var networks = data.main.social.map(function (network) {
       return (
         <li key={network.name}>
           <a href={network.url}>
@@ -65,7 +76,7 @@ const Header = ({ data, mindelay, maxdelay }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={1} mindelay={mindelay} maxdelay={maxdelay}>{name ? `I'm ${name}` : null}</TypeWriter>
+            <TypeWriter typing={1} mindelay="100" maxdelay="20">{name ? `I'm ${name}` : null}</TypeWriter>
           </h1>
           <h3>
             Based in {state}. <span>{occupation}</span>. {description}.
