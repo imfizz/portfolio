@@ -255,6 +255,9 @@
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper .columns { margin-bottom: 40px; }
+
+   .portfolio-item .item-wrap img { height: auto; }
+
    .popup-modal {	max-width: 85%; }
 
 

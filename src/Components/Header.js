@@ -1,9 +1,14 @@
 import React, { useContext } from "react";
 import TypeWriter from "react-typewriter";
 import { DataContext } from "../data/DataContext";
+import useSmoothScroll from "./Header/useSmoothScroll";
+import useHighlightNavigation from "./Header/useHighlightNavigation";
 
 const Header = () => {
   const { data, loading, isError } = useContext(DataContext);
+  useSmoothScroll();
+  useHighlightNavigation();
+  
 
   if(loading){
     return <div>Header section is loading..</div>
