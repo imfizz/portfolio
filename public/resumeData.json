@@ -1,11 +1,11 @@
 {
   "main": {
-    "name": "Francis Ilacad",
+    "name": "Francis Albert Ilacad",
     "occupation": "Web Developer",
     "description": "Designing and programming are my constant companions, my passions, and my areas of expertise",
     "image": "profilepic.png",
     "bio": "Resourceful professional with successful track record in developing innovative web designs and features. Possesses solid knowledge of HTML, CSS, JavaScript, NodeJS and ReactJS with ability to quickly learn new technologies. Demonstrated success in identifying and resolving complex code issues.",
-    "contactmessage": "Get in touch with me if your interested!",
+    "contactmessage": "Get in touch with me if you are interested!",
     "email": "filacad22@gmail.com",
     "phone": "+63 9060766219",
     "address": {
@@ -30,25 +30,13 @@
     ]
   },
   "resume": {
-    "skillmessage": "My Programming Language Proficiency",
+    "skillmessage": "My Software Development Skills",
     "education": [
       {
-        "school": "Quezon City University - PH",
+        "school": "Quezon City University - Philippines",
         "degree": "Bachelor's Degree, Information Technology",
         "graduated": "2018 - 2022",
         "description": "Best in Capstone in Senior High School"
-      },
-      {
-        "school": "San Bartolome High School - PH",
-        "degree": "",
-        "graduated": "2012 - 2018",
-        "description": ""
-      },
-      {
-        "school": "Villa Verde Elementary School - PH",
-        "degree": "",
-        "graduated": "2006 - 2012",
-        "description": ""
       }
     ],
     "work": [
@@ -139,56 +127,89 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Youtube Redesign (HTML, CSS, JavaScript, Netlify)",
-        "category": "",
+        "title": "Youtube Redesign",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "technologies": "HTML, CSS, JavaScript, Netlify",
+        "category": "Personal Work",
         "image": "ytredesign.png",
         "url": "https://ytredesign.netlify.app/",
         "year": "January 2021"
       },
       {
-        "title": "GetVibes - (HTML, CSS, MaterializeCSS, Undraw, Netlify)",
-        "category": "",
+        "title": "GetVibes",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "technologies": "HTML, CSS, MaterializeCSS, Undraw, Netlify",
+        "category": "Personal Work",
         "image": "getvibes.png",
         "url": "https://getvibesv2.netlify.app/",
         "year": "February 2021"
       },
       {
-        "title": "Shoppy (ReactJS, TailwindCSS, ContextProvider, Syncfusion, Netlify)",
-        "category": "",
-        "image": "storey.png",
-        "url": "https://storeydesg.netlify.app/",
-        "year": "June 2022"
-      },
-      {
-        "title": "Kiko Store (HTML, CSS, NextJS, SanityIO, Stripe, Vercel)",
-        "category": "",
-        "image": "kikostore.png",
-        "url": "https://ecommerce-sanity-stripe-eight-bice.vercel.app/",
-        "year": "July 2022"
-      },
-      {
-        "title": "Facebook Clone - (NextJS, TailwindCSS, Facebook Login, Heroicons)",
-        "category": "",
-        "image": "facebookclone.png",
-        "url": "https://facebook-deploy.vercel.app/",
-        "year": "July 2022"
-      },
-      {
-        "title": "JTDV System (PHP, Composer, MySQL, JavaScript, SASS)",
-        "category": "",
+        "title": "JTDV System",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "technologies": "PHP, Composer, MySQL, JavaScript, SASS",
+        "category": "Personal Work",
         "image": "jtdvsystem.png",
         "url": "https://payrolleristed.000webhostapp.com/login.php",
         "year": "January 2022"
       },
       {
-        "title": "Bizup Landing Page (HTML, CSS, React JS, SASS, Material Icons)",
-        "category": "",
+        "title": "Bizup",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "technologies": "HTML, CSS, React JS, SASS, Material Icons",
+        "category": "Personal Work",
         "image": "bizup.png",
         "url": "https://bizupp.netlify.app/",
         "year": "August 2022"
-      }, {
-        "title": "Profiler App (Python, Django, MySQL, Bootstrap, Pip, Pillow)",
-        "category": "",
+      }, 
+      {
+        "title": "Shoppy",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "technologies": "ReactJS, TailwindCSS, Syncfusion, Netlify",
+        "category": "Personal Work",
+        "image": "storey.png",
+        "url": "https://storeydesg.netlify.app/",
+        "year": "June 2022"
+      },
+      {
+        "title": "Kiko Store",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "technologies": "HTML, CSS, NextJS, SanityIO, Stripe, Vercel",
+        "category": "Personal Work",
+        "image": "kikostore.png",
+        "url": "https://ecommerce-sanity-stripe-eight-bice.vercel.app/",
+        "year": "July 2022"
+      },
+      {
+        "title": "Facebook Clone",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "technologies": "NextJS, TailwindCSS, Facebook Login, Heroicons",
+        "category": "Personal Work",
+        "image": "facebookclone.png",
+        "url": "https://facebook-deploy.vercel.app/",
+        "year": "July 2022"
+      },
+      {
+        "title": "Profiler App",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "technologies": "Python, Django, MySQL, Bootstrap, Pip, Pillow",
+        "category": "Personal Work",
         "image": "profiler app.png",
         "url": "https://bareclaw.pythonanywhere.com/users/login",
         "year": "May 2024"
@@ -196,22 +217,34 @@
     ],
     "workProjects": [
       {
-        "title": "ESG (HTML, CSS, SASS, JQuery, JavaScript, SiteCore, ASP.NET MVC, Azure DevOps Services)",
-        "category": "",
+        "title": "ESG",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "technologies": "HTML, SASS, JQuery, JavaScript, SiteCore, ASP.NET MVC, Azure DevOps Services",
+        "category": "Professional Work",
         "image": "esg.png",
         "url": "https://www.enterprisesg.gov.sg/",
         "year": "August 2022"
       },
       {
-        "title": "ELKO (ReactJS, NodeJS, AWS, AntD, Stripe, Webflow, Azure DevOps Services)",
-        "category": "",
-        "image": "elko.png",
+        "title": "ELKO",
+        "description": "Elko is a digital asset management tool that helps you store and manage files across your team effortlessly.",
+        "struggle": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+        "solution": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+        "technologies": "ReactJS, NodeJS, AWS, AntD, Stripe, Webflow, Azure DevOps Services",
+        "category": "Professional Work",
+        "image": "elko2.png",
         "url": "https://hello.elko.digital/",
         "year": "September 2023"
       },
       {
-        "title": "HAN (HTML, CSS, SASS, JavaScript, ASP.NET MVC, SiteCore, Azure DevOps Services)",
-        "category": "",
+        "title": "HAN",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+        "struggle": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+        "solution": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+        "technologies": "HTML, CSS, SASS, JavaScript, ASP.NET MVC, SiteCore, Azure DevOps Services",
+        "category": "Professional Work",
         "image": "han.png",
         "url": "https://www.roots.gov.sg/han",
         "year": "October 2023"
@@ -222,7 +255,7 @@
     "testimonials": [
       {
         "text": "Francis is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to me... I would definitely recommend",
-        "user": "Marianne Herrera"
+        "user": "Francis Marianne Herrera"
       },
       {
         "text": "He was able to help me out whenever I needed. Francis takes it all seriously and never stop trying until he finally gets the results he wanted.",

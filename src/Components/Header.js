@@ -81,7 +81,7 @@ const Header = () => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={1} mindelay="100" maxdelay="20">{name ? `I'm ${name}` : null}</TypeWriter>
+            <TypeWriter typing={1} mindelay="100" maxdelay="20">{name ? `${name}` : null}</TypeWriter>
           </h1>
           <h3>
             Based in {state}. <span>{occupation}</span>. {description}.

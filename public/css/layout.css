@@ -15,6 +15,7 @@
    g. Testimonials Section
    h. Contact Section
    i. Footer
+   j. Modal
 
 ===================================================================== */
 
@@ -470,6 +471,12 @@ ul#nav li.current a { color: #F06000; }
    cursor: pointer;
 }
 
+.portfolio-item .item-wrap p {
+   display: block;
+   cursor: pointer;
+   margin: unset;
+}
+
 /* overlay */
 .portfolio-item .item-wrap .overlay {
    position: absolute;
@@ -508,8 +515,8 @@ ul#nav li.current a { color: #F06000; }
 	transition: opacity 0.3s ease-in-out;
 
    position: absolute;
-   bottom: 15%;
-   left: 50%;
+   bottom: 10%;
+   right: 10%;
    margin-left: -15px;
    margin-top: -15px;
 }
@@ -1039,3 +1046,197 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #F06000; }
+
+
+/* ------------------------------------------------------------------ */
+/* j. Modal
+/* ------------------------------------------------------------------ */
+
+.modal-content-wrapper::-webkit-scrollbar {
+   display: none; /* Hide the scrollbar */
+}
+
+.modal-content-wrapper {
+   scrollbar-width: none; /* Hide the scrollbar */
+   -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+   overflow: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   height: 80vh;
+   overflow-y: auto;
+}
+
+.modal-content.header {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+   position: relative;
+   padding: 50px 150px 0 150px;
+}
+
+.modal-content.header h1 {
+   line-height: initial;
+   margin-bottom: unset;
+   font-size: 70px;
+   color: black;
+   display: inline-block;
+   transform: translateX(-6px);
+}
+
+.modal-content.header .modal-header-info {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.modal-content.header .modal-header-info p {
+   margin-bottom: unset;
+   color: black;
+   display: flex;
+   align-items: center;
+}
+
+.modal-content.header .modal-header-info .orange-dot {
+   margin-bottom: unset;
+   height: 5px;
+   width: 5px;
+   border-radius: 50%;
+   background-color: #F06000;
+   margin-left: 10px;
+   display: inline-block;
+}
+
+.modal-content.header .modal-header-info .project-technologies {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.modal-content.header .modal-header-info .project-technologies img {
+   height: 25px;
+}
+
+.modal-content.header .image-container {
+   height: 320px;
+   overflow: hidden;
+   position: relative;
+   isolation: isolate;
+   margin-left: -150px;
+   margin-right: -150px;
+   margin-top: 20px;
+}
+
+.modal-content.header .image-container a {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 3;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(156 156 156 / 50%);
+}
+
+.modal-content.header .image-container a svg {
+   transform: scale(0.5);
+}
+
+.modal-content.header .image-container a:hover {
+   background-color: rgb(156 156 156 / 80%);
+}
+
+/* .modal-content.header .image-container a:hover svg path {
+   stroke: #F06000;
+} */
+
+.modal-content.header .image-container::before {
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   height: 100%;
+   width: 100%;
+   background-color: rgba(0,0,0,0.3);
+   border-top: 0.5px solid #919191;
+   border-bottom: 0.5px solid #919191;
+   z-index: 2;
+}
+
+.modal-content.header .image-container img {
+   object-fit: cover;
+   background-position: top center;
+   position: relative;
+   z-index: 1;
+}
+
+.modal-content.body {
+   padding: 0 150px 50px 150px;
+}
+
+.modal-content.body .body-overview-wrapper .body-overview-header {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 10px;
+} 
+
+.modal-content.body .body-overview-wrapper .body-overview-header h3 {
+   color: black;
+   margin: unset;
+}
+
+.modal-content.body .body-overview-wrapper .body-overview-header p {
+   color: #c9c9c9;
+   margin: unset;
+}
+
+.modal-content.body .body-overview-wrapper .body-overview-description {
+   color: #949494;
+   width: 100%;
+}
+
+.modal-content.body .body-problem-wrapper {
+
+}
+
+.modal-content.body .body-problem-wrapper h5 {
+   color: black;
+}
+
+.modal-content.body .body-problem-wrapper p {
+   color: #949494;
+   width: 80%;
+}
+
+.modal-content.body .body-solution-wrapper {
+   margin-bottom: 40px;
+}
+
+.modal-content.body .body-solution-wrapper h5 {
+   color: black;
+}
+
+.modal-content.body .body-solution-wrapper p {
+   color: #949494;
+   width: 80%;
+}
+
+.modal-content.body a {
+   padding: 10px 50px;
+   border-radius: 5px;
+   background-color: black;
+   color: white;
+   cursor: pointer;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.modal-content.body a:hover {
+   background-color: #F06000;
+}

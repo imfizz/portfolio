@@ -126,7 +126,7 @@ const Contact = () => {
             </fieldset>
           </form>
 
-          <div id="message-warning"> Error boy</div>
+          <div id="message-warning"> Error sending your message.</div>
           <div id="message-success">
             <i className="fa fa-check"></i>Your message was sent, thank you!
             <br />
@@ -135,7 +135,7 @@ const Contact = () => {
 
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
-            <h4>Address and Phone</h4>
+            <h4>Contact Info</h4>
             <p className="address">
               {contactName}
               <br />
