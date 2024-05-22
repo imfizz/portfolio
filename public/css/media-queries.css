@@ -6,6 +6,39 @@
 
 /* ================================================================== */
 
+/* screenwidth less than 1200px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+
+   /* modal styles
+   -------------------------------------------------------------------*/
+   .modal-content.header {
+      padding: 50px 100px 0 100px;
+   }
+
+   .modal-content.header h1 {
+      font-size: 60px;
+   }
+
+   .modal-content.header .modal-header-info {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+   }
+
+   .modal-content.header .image-container {
+      margin-left: -100px;
+      margin-right: -100px;
+   }
+   
+   .modal-content.header .image-container img {
+      height: 100%;
+   }
+
+   .modal-content.body {
+      padding: 0 100px 50px 100px;
+   }
+}
 
 /* screenwidth less than 1024px
 --------------------------------------------------------------------- */
@@ -18,7 +51,6 @@
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
-
 }
 
 /* screenwidth less than 900px
