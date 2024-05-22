@@ -9,7 +9,6 @@ const useHighlightNavigation = () => {
       let activeSectionId = null;
       sections.forEach(section => {
         const sectionTop = section.offsetTop;
-        const sectionHeight = section.offsetHeight;
 
         if (window.scrollY >= sectionTop - window.innerHeight / 2) {
           activeSectionId = section.getAttribute("id");
