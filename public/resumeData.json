@@ -128,9 +128,9 @@
     "projects": [
       {
         "title": "Youtube Redesign",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "description": "When I was in college, I took on my first project. I signed up for a Web Development course at Tesda because I really love programming and wanted to boost my skills. My goal is to land an awesome job once I graduate!",
+        "struggle": "During my busy school days, Tesda presented an exciting challenge: build a project using JavaScript and HTML. They wanted an app that shows off JavaScript's Object-Oriented Programming and APIs. I saw this as a cool chance to flex my coding skills in a real-world setting.",
+        "solution": "I decided to impress my Tesda professor by creating a standout app. I brainstormed ideas, debating between a food market or a YouTube redesign web app. After some research, I settled on using the YouTube API and got to work. Despite facing numerous challenges—especially since it was my first time coding with JavaScript and APIs—I persevered. Even during late nights, I remained determined to crack the code. With careful planning and relentless effort, my project started taking shape, and I was thrilled with how it turned out. After presenting my project, I received my certificate. A few days later, some of my professor's students approached me. They recommended that I apply for a JavaScript developer position in Makati.",
         "technologies": "HTML, CSS, JavaScript, Netlify",
         "category": "Personal Work",
         "image": "ytredesign.png",
@@ -139,9 +139,9 @@
       },
       {
         "title": "GetVibes",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "description": "This marks my second course at Tesda as I strive to master both frontend and backend programming. The Web Development course surpassed my expectations, leading to a job offer. Motivated by this success, I enrolled in the Creative Web Design course at Tesda. I'm excited to delve deeper into design, especially for a music app project similar to Spotify, focusing more on the aesthetics rather than backend coding.",
+        "struggle": "Their ultimate aim was for us to create a top-notch website using tools like HTML, CSS, and MaterialCSS, to gauge our understanding of their teachings. However, during the website development process, I faced several challenges. These included ensuring responsive design to fit various devices, tackling compatibility issues across different browsers, and ensuring smooth functionality across diverse platforms.",
+        "solution": "To tackle these challenges, I took a multi-pronged approach. Firstly, I implemented different screen sizes to ensure responsiveness across all devices. Secondly, I utilized Figma to create wireframes for my design, meticulously crafting layouts for mobile, tablet, and desktop. Lastly, I applied fundamental design principles such as color theory and spacing to enhance the visual appeal and user experience of the website.",
         "technologies": "HTML, CSS, MaterializeCSS, Undraw, Netlify",
         "category": "Personal Work",
         "image": "getvibes.png",
@@ -149,10 +149,10 @@
         "year": "February 2021"
       },
       {
-        "title": "JTDV System",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "title": "JTDV Payroll",
+        "description": "During my college years in Information Technology, our capstone project was the JTDV Payroll System, a comprehensive solution aimed at revolutionizing company operations. Motivated by the goal of enhancing productivity and efficiency, we crafted a versatile system that went beyond traditional payroll management. Equipped with CRUD functionality and attendance monitoring, it addressed key organizational needs such as leave management, employee tracking, and incident logging. Tailored for hypothetical company JTDV, our system provided insights into user activities and offered various features to streamline daily operations. It was a culmination of our dedication to leveraging technology to drive positive change in the workplace.",
+        "struggle": "As the project manager overseeing our capstone project, I faced several challenges in ensuring the successful completion of both the coding and documentation aspects. Firstly, coordinating the team's efforts to meet coding milestones proved to be a daunting task. Balancing the allocation of coding tasks, debugging sessions, and integration testing required meticulous planning and effective communication. Additionally, managing the documentation aspect posed its own set of challenges. Ensuring that all project documentation, including design specifications, user manuals, and technical reports, was accurate, comprehensive, and submitted on time demanded considerable attention to detail and organizational skills. Moreover, navigating the dynamic nature of software development, where requirements may evolve, deadlines may shift, and unforeseen technical issues may arise, added another layer of complexity to my role as a project manager. Overcoming these challenges while maintaining team morale and cohesion emerged as a priority, requiring adaptability, problem-solving skills, and effective leadership.",
+        "solution": "As the project manager, I adopted a systematic approach to address the challenges we encountered in our capstone project. Firstly, recognizing the diverse skill sets within the team, I strategically divided tasks based on individual strengths and expertise. This ensured that each team member could contribute effectively, whether they excelled in coding or documentation. To streamline the development process, I meticulously planned every aspect, from the design process to the system's flow and scope. By outlining clear objectives and delegating specific responsibilities, I fostered a sense of ownership and accountability among team members. To kickstart the project, we began with the creation of wireframes using Figma and designed the database structure using an ERD (Entity Relationship Diagram). This laid a solid foundation, enabling us to visualize the system's architecture and data flow. Recognizing the importance of both design and functionality, I segregated tasks to focus on each aspect separately. This allowed for a more efficient workflow, with team members able to concentrate on their respective areas of expertise. Moreover, to ensure steady progress, I implemented daily task assignments, setting achievable milestones to track our progress. This not only kept the team motivated but also ensured that we were making tangible progress towards our goal each day. By maintaining open communication channels and providing regular feedback, I fostered a collaborative environment where ideas could be freely exchanged, and challenges addressed collectively. In dealing with different personalities within the team, I adopted a flexible leadership approach. By understanding each team member's strengths, weaknesses, and preferences, I was able to tailor my management style accordingly. Whether it was providing additional support and guidance to less experienced developers or empowering seasoned coders to take the lead on complex tasks, I ensured that everyone felt valued and supported in their roles. Overall, through meticulous planning, effective delegation, and adaptive leadership, we successfully navigated the challenges of our capstone project, culminating in the development of the JTDV Payroll System.",
         "technologies": "PHP, Composer, MySQL, JavaScript, SASS",
         "category": "Personal Work",
         "image": "jtdvsystem.png",
@@ -161,9 +161,9 @@
       },
       {
         "title": "Bizup",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "description": "After I graduated, I plan to showcase my projects by creating this portfolio and new upcoming projects that I can add on. One of the project I've built is this Bizup Website. This project is a test for me that I needed to complete to pass the interview and land a job.",
+        "struggle": "My assignment was to recreate the design of a lengthy landing page using ReactJS, and I had only one day to complete the task. The challenge involved replicating numerous sections of the original website, ensuring that each element and layout detail was faithfully recreated within the constraints of the ReactJS framework.",
+        "solution": "My approach was to organize the design into components, ensuring a neat and structured layout when compiling them within each section. I focused on making it responsive, ensuring it looked great on all modern browsers and devices. I also ensured that the project was well-organized by placing styles, components, and images into their respective folders. This helped streamline the development process and maintain clarity throughout the project.",
         "technologies": "HTML, CSS, React JS, SASS, Material Icons",
         "category": "Personal Work",
         "image": "bizup.png",
