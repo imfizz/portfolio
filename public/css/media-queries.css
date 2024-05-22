@@ -18,6 +18,7 @@
 
    .modal-content.header h1 {
       font-size: 60px;
+      width: 215px;
    }
 
    .modal-content.header .modal-header-info {
@@ -37,6 +38,14 @@
 
    .modal-content.body {
       padding: 0 100px 50px 100px;
+   }
+
+   .modal-content.body .body-problem-wrapper p {
+      width: 100%;
+   }
+
+   .modal-content.body .body-solution-wrapper p {
+      width: 100%;
    }
 }
 
