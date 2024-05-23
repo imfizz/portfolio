@@ -47,7 +47,7 @@
         "description": [
           "Collected, defined and translated user requirements into project designs and implementation plans.", 
           "Tested web-based product functionality and delivered iterations to customer.",
-          "Utilized HTML, CSS, JavaScript and other libraries/frameworks to create visually appealing and responsive web pages that met client requirements.",
+          "Utilized HTML, CSS, JavaScript, ReactJs and other libraries/frameworks to create visually appealing and responsive web pages that met client requirements.",
           "Troubleshoot technical issues related to front end development, ensuring prompt resolution to maintain project timelines.",
           "Conducted cross-browser testing to ensure consistent display across different devices and browsers."
         ]
@@ -172,9 +172,9 @@
       }, 
       {
         "title": "Shoppy",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "description": "Shoppy is a project I developed using ReactJS, TailwindCSS, and Syncfusion. It features various sections, including an Orders Page, Users Page, Customers Page, a Calendar similar to Outlook/Teams, a Kanban board like a sprint board, a WYSIWYG Editor, a Color Picker, and a range of charts such as line, area, bar, pie, financial, color mapping, pyramid, and stacked. The project is fully responsive for mobile devices and includes customizable themes.",
+        "struggle": "One of the challenges I faced while developing Shoppy was managing the state across multiple components, especially with complex data interactions in sections like the Calendar, Kanban board, and various charts. Ensuring seamless data flow and synchronization across these components was critical for maintaining a responsive and intuitive user experience.",
+        "solution": "To tackle this issue, I utilized Context Provider for global state management. This approach allowed me to maintain consistent data flow and simplify state updates across the entire application. Additionally, I organized the folder structure meticulously, creating separate folders for components, pages, contexts, and data. This organization improved the maintainability and scalability of the codebase, making it easier to manage and develop new features.",
         "technologies": "ReactJS, TailwindCSS, Syncfusion, Netlify",
         "category": "Personal Work",
         "image": "storey.png",
@@ -183,9 +183,9 @@
       },
       {
         "title": "Kiko Store",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "description": "Kiko Store is an eCommerce project designed to display sellers' products, highlight items on sale, and allow buyers to add products to their cart. It includes options for product variations, such as color choices for a headset, as well as product ratings and detailed descriptions. This project utilizes a fullstack technology stack, with NextJS for both the frontend and backend, SanityIO for the database, Stripe for the payment gateway, and Vercel for hosting. I created this project to test and showcase my fullstack development skills, and it turned out exceptionally well, with no issues encountered.",
+        "struggle": "While developing Kiko Store, one significant challenge was integrating multiple technologies seamlessly. Ensuring smooth communication between NextJS for the frontend and backend, SanityIO for the database, Stripe for payments, and Vercel for hosting required careful coordination. Managing these integrations while maintaining optimal performance and security was critical.",
+        "solution": "To address this, I focused on a modular approach and thorough testing. I used NextJS's built-in API routes to handle backend processes efficiently and integrated SanityIO with well-structured queries to manage and fetch product data. For Stripe, I implemented secure payment processing workflows and tested them rigorously. Additionally, I organized the codebase into clear, separate modules for components, pages, contexts, and utilities. This organization not only streamlined development but also enhanced maintainability and scalability. Using Vercel for hosting ensured smooth deployment and scalability of the application. Through these strategies, I achieved a robust and efficient eCommerce platform.",
         "technologies": "HTML, CSS, NextJS, SanityIO, Stripe, Vercel",
         "category": "Personal Work",
         "image": "kikostore.png",
@@ -194,9 +194,9 @@
       },
       {
         "title": "Facebook Clone",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "description": "Finding myself frequently using Facebook to stay connected with relatives and friends and keep updated on their life achievements, I decided to create my own Facebook-like platform. Leveraging Next.js for both frontend and backend development, I integrated Facebook Login API to allow users to log in using their Facebook credentials. Additionally, I utilized Heroicons for website icons. This project enables users to create posts with titles and images, incorporating their Facebook profile photo and name.",
+        "struggle": "During the development of my Facebook-like platform, I encountered several challenges, one of which was ensuring seamless integration with the Facebook Login API. Handling user authentication and securely managing user data presented complexities, especially when synchronizing profile information such as photos and names from Facebook to my platform. Additionally, maintaining a consistent and appealing user interface with Heroicons while ensuring scalability posed another obstacle.",
+        "solution": "To address the challenges, I adopted a systematic approach. Firstly, I thoroughly studied the documentation provided by Facebook for their Login API, ensuring a deep understanding of authentication flows and security protocols. Implementing OAuth 2.0 authentication ensured secure and reliable login processes. For synchronizing user profile information, I designed an efficient data-fetching mechanism, utilizing Facebook Graph API to retrieve user details such as profile photos and names. This integration streamlined the user experience and ensured up-to-date profile information. Regarding the user interface, I optimized the use of Heroicons by creating a centralized icon management system. This approach facilitated easy access to icons across the platform and enabled consistent styling. Additionally, I employed Next.js's built-in features for efficient rendering and caching, ensuring smooth performance even with increased user activity. Through meticulous planning and implementation, I successfully overcame the challenges and developed a robust Facebook-like platform.",
         "technologies": "NextJS, TailwindCSS, Facebook Login, Heroicons",
         "category": "Personal Work",
         "image": "facebookclone.png",
@@ -205,9 +205,9 @@
       },
       {
         "title": "Profiler App",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "description": "The Profiler app is a Python-based project developed using the Django framework. This application aims to provide essential functionalities such as displaying user profiles, enabling users to update their information including names and images, and facilitating commenting on other users' profiles. Additionally, it features an admin section with capabilities to add user roles, delete specific or multiple users, and track user comments. The app also incorporates robust authentication and authorization mechanisms inherent to Django, ensuring heightened security. It includes user authentication features such as login and logout functionalities, enhancing the protection of user data and system integrity. Moreover, the application is designed to be mobile-responsive, leveraging Bootstrap for seamless adaptation to various screen sizes and devices.",
+        "struggle": "While developing the Profiler app, I encountered challenges with integrating Django with MySQL as the database backend. Configuring the database settings and ensuring compatibility between Django's ORM and MySQL's database schema posed initial hurdles. Additionally, managing complex relationships and optimizing database queries for efficient data retrieval presented ongoing difficulties. These challenges hindered the smooth development and functionality of the application, impacting its performance and user experience.",
+        "solution": "To address the challenges of integrating Django with MySQL, I employed a systematic approach. Initially, I thoroughly studied the documentation and resources available for configuring Django with MySQL, gaining a deeper understanding of the necessary settings and configurations. Utilizing Django's built-in migration tools, I synchronized the database schema with Django's ORM, ensuring seamless interaction between the application and the MySQL database. Additionally, I optimized database queries by leveraging Django's query optimization techniques and indexing strategies, improving the application's performance and responsiveness. Through meticulous testing and iterative refinement, I successfully overcame the challenges, resulting in a robust Profiler app with Django and MySQL integration.",
         "technologies": "Python, Django, MySQL, Bootstrap, Pip, Pillow",
         "category": "Personal Work",
         "image": "profiler app.png",
@@ -218,9 +218,9 @@
     "workProjects": [
       {
         "title": "ESG",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        "struggle": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
-        "solution": "by injected humour, or randomised words which don't look even slightly believable",
+        "description": "The client, a government agency, aimed to develop both frontend and backend components for their project, 'Enterprise SG,' to efficiently deliver services to businesses. The overarching goal was to establish a comprehensive platform to support entrepreneurship, innovation, and economic growth within the business landscape.",
+        "struggle": "I'm stepping into my first job, excited but uncertain, ready to tackle my inaugural project. Then, not long after, I'm handed a surprising promotion: 'Congratulations, you're now our lead frontend developer!' Don't get me wrong, I'm thrilled by the opportunity, but the reality sinks in—I'm still finding my footing. Leading a team while still navigating my own learning curve feels a bit like trying to juggle before I've even learned to catch. It's a lot to take in. And with all this responsibility, there's a nagging worry that I might stumble, not just for the project's sake but for my own career path too.",
+        "solution": "Here's how I approached it: I didn't just lead from the sidelines—I got my hands dirty coding too. My focus? Global stylings. I crafted a cohesive design language that tied our project together, ensuring consistency and polish across every screen. Then there were the components—I made sure they were more than just one-time wonders. I engineered them to be versatile, reusable building blocks, saving time and effort for the team down the line. And when it came to responsiveness, I didn't settle for anything less than pixel-perfect. I fine-tuned our layouts to adapt seamlessly to every screen size, ensuring a smooth experience for every user, whether they were on desktop or mobile. But it didn't stop there. I obsessively fine-tuned user interactions, tweaking every button, every animation, to perfection. Because for me, it's not just about delivering a product—it's about crafting an experience that leaves users wowed at every click. And you know what? Together, these contributions didn't just elevate our project—they laid the foundation for a team that's primed for success.",
         "technologies": "HTML, SASS, JQuery, JavaScript, SiteCore, ASP.NET MVC, Azure DevOps Services",
         "category": "Professional Work",
         "image": "esg.png",
@@ -228,26 +228,26 @@
         "year": "August 2022"
       },
       {
-        "title": "ELKO",
-        "description": "Elko is a digital asset management tool that helps you store and manage files across your team effortlessly.",
-        "struggle": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-        "solution": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
-        "technologies": "ReactJS, NodeJS, AWS, AntD, Stripe, Webflow, Azure DevOps Services",
-        "category": "Professional Work",
-        "image": "elko2.png",
-        "url": "https://hello.elko.digital/",
-        "year": "Sept 2023"
-      },
-      {
         "title": "HAN",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-        "struggle": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
-        "solution": "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+        "description": "The client's objective was to develop a website that serves as a platform to promote the rich history and culture of Singapore. They envisioned creating pages showcasing different facets of Singapore, including historical landmarks, cultural artifacts, and significant locations. The primary goal was to provide users with an immersive experience that educates and engages them with Singapore's heritage and identity.",
+        "struggle": "As the sole frontend developer on this project, I faced a daunting challenge: crafting the entire user interface and experience from scratch. With no team members to share the workload, I carried the weight of translating the client's vision into reality all by myself. Navigating through the complexities of frontend development— from global styling for consistent aesthetics to implementing responsive design for seamless accessibility across devices— was like charting uncharted territory. Additionally, refining the user experience to maximize engagement demanded relentless attention to detail. Balancing these tasks while addressing client feedback and troubleshooting any issues that arose through Jira felt like spinning plates, with the risk of one crashing down at any moment. Despite the pressure, I remained committed to delivering a top-notch product that would meet and exceed the client's expectations, but the journey was undeniably challenging.",
+        "solution": "As the lead frontend developer for this project, I took on the responsibility of translating the client's vision into a functional and visually appealing website. My contributions encompassed various aspects of frontend development, including global styling to ensure consistency across all pages, implementing a responsive design to enhance accessibility across different devices and browsers, and refining the user experience to maximize engagement. Additionally, I actively addressed client feedback and resolved any issues or bugs identified through Jira, ensuring that the website met the client's expectations and requirements effectively. The project achieved resounding success, evidenced by the seamless launch of the website without any major issues or complaints from the client. With a flawless transition to the live environment, the website operates smoothly, delivering an immersive experience to users exploring Singapore's history and culture. The absence of significant problems throughout the project lifecycle, coupled with the client's satisfaction and lack of complaints, underscores the project's success. This accomplishment reflects the collaborative effort of the team and the effectiveness of our approach in meeting the client's goals and expectations with precision and excellence.",
         "technologies": "HTML, CSS, SASS, JavaScript, ASP.NET MVC, SiteCore, Azure DevOps Services",
         "category": "Professional Work",
         "image": "han.png",
         "url": "https://www.roots.gov.sg/han",
         "year": "October 2023"
+      },
+      {
+        "title": "ELKO",
+        "description": "Our client, an internal team within our company, initiated a project centered around Digital Asset Management (DAM). The primary goal was to establish a resilient service enabling users to securely store their assets within our platform. The overarching objective was to craft a comprehensive solution that simplifies asset management workflows and improves accessibility for both internal and external users.",
+        "struggle": "While working on this project, I encountered significant challenges in balancing frontend and backend development tasks. Juggling responsibilities across both domains proved daunting, especially considering the complexity of implementing global styling and ensuring responsiveness on the frontend while simultaneously diving into backend development using Node.js and AWS. The lack of clarity on task prioritization and resource allocation exacerbated the situation, leading to delays and inefficiencies in project execution. Additionally, navigating the intricacies of integrating frontend and backend components posed a significant hurdle, as seamless coordination between the two was essential for delivering a cohesive solution aligned with the client's objectives. These challenges threatened to impede progress and compromise the project's success, leaving me feeling overwhelmed and uncertain about meeting deadlines and delivering a high-quality product.",
+        "solution": "In my role as a developer on this project, I contributed extensively to both frontend and backend tasks. On the frontend side, I focused on implementing global styling and ensuring a responsive design throughout the project. This involved creating a visually cohesive user interface and optimizing the user experience across various devices and screen sizes. Additionally, I delved into backend development using technologies like Node.js and AWS to facilitate asset storage and trigger key functionalities. By seamlessly integrating frontend and backend components, I aimed to deliver a cohesive and efficient solution aligned with the client's objectives. The project's success was evident as we successfully launched the DAM service, enabling users to store and manage their assets seamlessly. The transition to the live environment occurred smoothly, with all functionalities operating as intended. Notably, users provided positive feedback, highlighting the platform's effectiveness and suggesting opportunities for future enhancements. The project's ability to meet user needs and garner constructive feedback underscores its success in addressing the client's goals and laying the foundation for continued improvement and innovation.",
+        "technologies": "ReactJS, NodeJS, AWS, AntD, Stripe, Webflow, Azure DevOps Services",
+        "category": "Professional Work",
+        "image": "elko2.png",
+        "url": "https://hello.elko.digital/",
+        "year": "Sept 2023"
       }
     ]
   },
