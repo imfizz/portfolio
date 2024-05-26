@@ -5,12 +5,19 @@ import { Box, Modal } from "@mui/material";
 const Portfolio = () => {
   const [open, setOpen] = useState(false);
   const { data, loading, isError } = useContext(DataContext);
+
+  const iconsDict = data?.portfolio.projectIcons.reduce((acc, icon) => {
+    const key = Object.keys(icon)[0];
+    acc[key] = icon[key];
+    return acc;
+  }, {});
+
   const [activeProject, setActiveProject] = useState({
     title: "",
     description: "",
     struggle: "",
     solution: "",
-    technologies: "",
+    technologies: [],
     category: "",
     image: "",
     url: "",
@@ -26,14 +33,14 @@ const Portfolio = () => {
   }
 
   const handleOpen = (project) => { 
-    setOpen(true); 
+    setOpen(true);
     setActiveProject((prev) => (
       { 
         title: project.title,
         description: project.description,
         struggle: project.struggle,
         solution: project.solution,
-        technologies: project.technologies,
+        technologies: project.technologies.split(', '),
         category: project.category,
         image: project.image,
         url: project.url,
@@ -48,7 +55,7 @@ const Portfolio = () => {
       description: "",
       struggle: "",
       solution: "",
-      technologies: "",
+      technologies: [],
       category: "",
       image: "",
       url: "",
@@ -165,11 +172,19 @@ const Portfolio = () => {
                   <p>{activeProject.category}<span className="orange-dot"></span></p>
 
                   <div className="project-technologies">
-                    <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="ReactJs" />
-                    <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="NodeJs" />
-                    <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png" alt="NodeJs" />
-                    <img src="/images/skills-icon/stripe.png" alt="Stripe" />
-                    <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/azure/azure.png" alt="Azure" />
+                    {
+                      activeProject.technologies.map((tech, i) => {
+                        if(i < 5){
+                          return (
+                            <img
+                              key={i}
+                              src={iconsDict[tech]}
+                              alt={tech}
+                            />
+                          )
+                        }
+                      })
+                    }
                   </div>
                 </div>
 

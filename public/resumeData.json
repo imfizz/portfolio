@@ -165,7 +165,7 @@
         "description": "After I graduated, I plan to showcase my projects by creating this portfolio and new upcoming projects that I can add on. One of the project I've built is this Bizup Website. This project is a test for me that I needed to complete to pass the interview and land a job.",
         "struggle": "My assignment was to recreate the design of a lengthy landing page using ReactJS, and I had only one day to complete the task. The challenge involved replicating numerous sections of the original website, ensuring that each element and layout detail was faithfully recreated within the constraints of the ReactJS framework.",
         "solution": "My approach was to organize the design into components, ensuring a neat and structured layout when compiling them within each section. I focused on making it responsive, ensuring it looked great on all modern browsers and devices. I also ensured that the project was well-organized by placing styles, components, and images into their respective folders. This helped streamline the development process and maintain clarity throughout the project.",
-        "technologies": "HTML, CSS, React JS, SASS, Material Icons",
+        "technologies": "HTML, CSS, ReactJS, SASS, Material Icons",
         "category": "Personal Work",
         "image": "bizup.png",
         "url": "https://bizupp.netlify.app/",
@@ -249,6 +249,107 @@
         "image": "elko2.png",
         "url": "https://hello.elko.digital/",
         "year": "Sept 2023"
+      }
+    ],
+    "projectIcons": [
+      {
+        "HTML": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+      },
+      {
+        "CSS": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+      },
+      {
+        "SASS": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png"
+      },
+      {
+        "TailwindCSS": "https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/tailwind/tailwind.png"
+      },
+      {
+        "Bootstrap": "https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/bootstrap/bootstrap.png"
+      },
+      {
+        "JQuery": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"
+      },
+      {
+        "JavaScript": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+      },
+      {
+        "ReactJS": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+      },
+      {
+        "AntD": "/images/skills-icon/antd.png"
+      },
+      {
+        "NodeJS": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
+      },
+      {
+        "NextJS": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+      },
+      {
+        "Stripe": "/images/skills-icon/stripe.png"
+      },
+      {
+        "PHP": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"
+      },
+      {
+        "Composer": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/composer/composer.png"
+      },
+      {
+        "MySQL": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
+      },
+      {
+        "Syncfusion": "/images/skills-icon/syncfusion.png"
+      },
+      {
+        "SanityIO": "/images/skills-icon/sanity.png"
+      },
+      {
+        "ASP.NET MVC": "/images/skills-icon/asp.net.png"
+      },
+      {
+        "Python": "https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/python/python.png"
+      },
+      {
+        "Django": "https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/django/django.png"
+      },
+      {
+        "Pip": "/images/skills-icon/pip.png"
+      },
+      {
+        "Pillow": "/images/skills-icon/pillow.png"
+      },
+      {
+        "Undraw": "/images/skills-icon/undraw.png"
+      },
+      {
+        "MaterializeCSS": "/images/skills-icon/materializecss.png"
+      },
+      {
+        "Material Icons": "/images/skills-icon/materialicon.png"
+      },
+      {
+        "Heroicons": "/images/skills-icon/heroicon.png"
+      },
+      {
+        "Webflow": "/images/skills-icon/webflow.png"
+      },
+      {
+        "Facebook Login": "/images/skills-icon/facebook.png"
+      },
+      {
+        "Netlify": "/images/skills-icon/netlify.png"
+      },
+      {
+        "Vercel": "/images/skills-icon/vercel.png"
+      },
+      {
+        "SiteCore": "https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/sitecore/sitecore.png"
+      },
+      {
+        "AWS": "https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/aws/aws.png"
+      },
+      {
+        "Azure DevOps Services": "https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/azure/azure.png"
       }
     ]
   },
