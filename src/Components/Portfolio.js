@@ -173,17 +173,7 @@ const Portfolio = () => {
 
                   <div className="project-technologies">
                     {
-                      activeProject.technologies.map((tech, i) => {
-                        if(i < 5){
-                          return (
-                            <img
-                              key={i}
-                              src={iconsDict[tech]}
-                              alt={tech}
-                            />
-                          )
-                        }
-                      })
+                      activeProject.technologies.map((tech, i) => i < 5 && <img key={i} src={iconsDict[tech]} alt={tech} />)
                     }
                   </div>
                 </div>
